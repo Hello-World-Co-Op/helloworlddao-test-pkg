@@ -1,6 +1,6 @@
 {
   "name": "@helloworlddao/test-pkg",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Temporary test package for FAS-1.5 end-to-end validation",
   "type": "module",
   "main": "./dist/index.js",
