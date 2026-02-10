@@ -1,4 +1,4 @@
-# CI workflow for @helloworlddao/test-pkg
+# CI workflow for @hello-world-co-op/test-pkg
 # Triggers package-publish reusable workflow on version tag push
 
 name: Package CI
@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: '20'
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@helloworlddao'
+          scope: '@hello-world-co-op'
       - run: npm ci
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
